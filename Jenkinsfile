@@ -1,10 +1,15 @@
 pipeline {
-    agent { docker { image 'node:14-alpine' } }
+    agent any
     stages {
-        stage('build') {
+       stage('Checkout to the testing Repo') {
             steps {
-                //echo "hello"
-                sh 'echo \'test\' '
+               checkout scm
+            }
+        }
+        stage('Run qualiti script') {
+            steps { 
+                sh "chmod +x ./qualiti-script.sh"
+                sh "./qualiti-script.sh"   
             }
         }
     }
