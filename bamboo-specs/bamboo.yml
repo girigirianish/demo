@@ -2,14 +2,15 @@ version: 2
 plan:
   project-key: SAM
   key: PLAN
-  name: My Plan
+  name: Build the rockets
 
+# List of plan's stages and jobs
 stages:
-  - Stage 1:
-      jobs:
-        - Job 1
+  - Build the rocket stage:
+    - Build
 
-Job 1:
+#Job definition
+Build:
   tasks:
     - script:
-        - exit 1
+        - echo 'Built it'
