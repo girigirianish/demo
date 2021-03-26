@@ -1,6 +1,6 @@
 version: 2
 plan:
-  project-key: DEMO
+  project-key: SAM
   key: PLAN
   name: My Plan
 
