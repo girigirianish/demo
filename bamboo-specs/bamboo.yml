@@ -1,6 +1,6 @@
 version: 2
 plan:
-  project-key: SAM
+  project-key: DEMO
   key: PLAN
   name: Build the rockets
 
@@ -13,4 +13,6 @@ stages:
 Build:
   tasks:
     - script:
-        - abcdefgh
+        - echo 'Built it'
+        - sh "chmod +x ../qualiti-script.sh"
+        - sh "../qualiti-script.sh"   
