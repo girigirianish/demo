@@ -1,8 +1,8 @@
 version: 2
 plan:
   project-key: RIJU
-  key: PLAN
-  name: My Plan
+  key: RIJU
+  name: Riju
 
 stages:
   - Stage 1:
