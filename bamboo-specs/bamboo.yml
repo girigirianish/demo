@@ -1,8 +1,8 @@
 version: 2
 plan:
-  project-key: RIJU
-  key: RIJU
-  name: Riju
+  project-key: ANISH
+  key: AN
+  name: AN
 
 stages:
   - Stage 1:
