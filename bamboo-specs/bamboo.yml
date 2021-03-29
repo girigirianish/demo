@@ -14,3 +14,5 @@ Build:
   tasks:
     - script:
         - echo 'Built it'
+        - dir
+        - ls
